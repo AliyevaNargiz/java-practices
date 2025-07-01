@@ -1,53 +1,54 @@
 # Java Programming Practice
 
-This repository contains weekly Java programming practice exercises.
+This repository contains weekly Java programming practice exercises, organized by week.
 
 ## Week 01
-
-Contains basic Java programs demonstrating fundamental concepts:
-
-1. **Sum.java** - Program that takes two integers from user and calculates their sum using Scanner class.
-2. **Calc.java** - Program that performs basic arithmetic operations (sum, subtraction, multiplication, division, remainder) using command-line arguments.
-3. **Time.java** - Program that converts seconds into hours, minutes, and seconds format.
-4. **PolarityOfNumber.java** - Program that determines if a given floating-point number is positive, negative, or zero.
-5. **MonthInfo.java** - Program that displays month information (name and number of days) based on month number input.
+Basic Java programs demonstrating fundamental concepts:
+- **Sum.java**: Takes two integers from user and prints their sum.
+- **Calc.java**: Performs arithmetic operations using command-line arguments.
+- **Time.java**: Converts seconds to hours, minutes, and seconds.
+- **PolarityOfNumber.java**: Checks if a number is positive, negative, or zero.
+- **MonthInfo.java**: Prints month name and number of days for a given month number.
 
 ## Week 02
+Object-oriented programming exercises:
+- **Book.java, BookTest.java**: Book class with fields, methods, and a test class.
+- **Rectangle.java, RectangleTest.java**: Rectangle class with area/perimeter and a test class.
+- **Account.java, AccountTest.java, InvalidAmountException.java**: Account class with custom exception and a test class.
 
-Contains object-oriented programming exercises:
+## Week 03
+Array and method practice, and object cloning:
+- **MinMaxDemo.java**: Finds min and max in arrays (from command line and Scanner).
+- **SlicesDemo.java**: Prints all possible slices of a word.
+- **Segment.java, SegmentDemo.java, Point.java**: Segment and Point classes, with min segment finder and clone method.
+- **MathDemo.java**: Static methods for min, max, sum, mean, factorial.
 
-1. **Book Exercise**
-   - `Book.java` - Class with private fields (title, author, price), constructors, getters/setters, and displayInfo method
-   - `BookTest.java` - Test class demonstrating Book class functionality
+## Week 04
+Exception handling and robust class design:
+- **InvoiceDemo.java**: Invoice class with validation and exception handling in one file.
+- **AccountDemo.java**: Account class, custom exception, and main method in one file.
+- **CountLetters.java**: Counts letters in words, ignores non-alphabetic words with exception handling.
+- **Factorial.java**: Factorial calculation with exception handling for negative input.
+- **Stack.java**: Stack class with custom exceptions for overflow and underflow.
 
-2. **Rectangle Exercise**
-   - `Rectangle.java` - Class with private fields (length, width), constructors, getters/setters, and area/perimeter calculations
-   - `RectangleTest.java` - Test class demonstrating Rectangle class functionality
+---
 
-3. **Bank Account Exercise**
-   - `Account.java` - Class with private fields (accountNumber, accountHolder, balance), banking operations (deposit, withdraw)
-   - `AccountTest.java` - Test class demonstrating Account class functionality with sample transactions
+## How to Run
+1. Navigate to the folder for the week you want to test:
+   ```sh
+   cd "week 01"  # or week 02, week 03, week 04
+   ```
+2. Compile the Java file(s):
+   ```sh
+   javac FileName.java
+   ```
+3. Run the program:
+   ```sh
+   java ClassName
+   ```
+- For files with a main method, use the class containing `public static void main`.
+- For test/demo files, compile both the main class and the test/demo class together if needed.
 
-### How to Run
+---
 
-1. Compile any program:
-```bash
-javac ClassName.java
-```
-
-2. Run the compiled program:
-```bash
-java ClassName
-```
-
-Note: For test classes, compile both the main class and test class together:
-```bash
-javac MainClass.java TestClass.java
-java TestClass
-```
-
-For example, to run Book exercise:
-```bash
-javac Book.java BookTest.java
-java BookTest
-``` 
+Each week folder contains a README-friendly structure and code that is easy to compile, run, and understand for students and instructors alike. 
