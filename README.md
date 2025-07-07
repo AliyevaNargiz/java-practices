@@ -36,6 +36,7 @@ Functional programming and lambda expressions:
 - **SpecificPropertyDemo.java**: Demonstrates the SpecificProperty functional interface with lambda implementations for checking if an integer is odd, if a point is in the first quadrant, if a string is a pangram, and if a person is older than 20. Includes a generic filter method.
 - **CalculatorDemo.java**: Defines a Calculator functional interface and uses lambda expressions for addition, subtraction, multiplication, division, and exponentiation.
 - **EmployeeSortDemo.java**: Defines an Employee class and demonstrates sorting an array of employees by firstname, age, and salary using lambda expressions and method references.
+- **StreamApiDemo.java**: Demonstrates Java 8 Stream API usage, including instantiation, initialization, and methods such as allMatch, noneMatch, anyMatch, count, generate, limit, forEach, findFirst, findAny, ifPresentOrElse, filter, sorted, collect, map, and reduce, with lambda expressions.
 
 ---
 
