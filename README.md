@@ -31,6 +31,12 @@ Exception handling and robust class design:
 - **Factorial.java**: Factorial calculation with exception handling for negative input.
 - **Stack.java**: Stack class with custom exceptions for overflow and underflow.
 
+## Week 05
+Functional programming and lambda expressions:
+- **SpecificPropertyDemo.java**: Demonstrates the SpecificProperty functional interface with lambda implementations for checking if an integer is odd, if a point is in the first quadrant, if a string is a pangram, and if a person is older than 20. Includes a generic filter method.
+- **CalculatorDemo.java**: Defines a Calculator functional interface and uses lambda expressions for addition, subtraction, multiplication, division, and exponentiation.
+- **EmployeeSortDemo.java**: Defines an Employee class and demonstrates sorting an array of employees by firstname, age, and salary using lambda expressions and method references.
+
 ---
 
 ## How to Run
