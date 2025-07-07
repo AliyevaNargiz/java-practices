@@ -1,4 +1,4 @@
-public class Stack {
+javacpublic class Stack {
     private int[] elements;
     private int capacity;
     private int index;
